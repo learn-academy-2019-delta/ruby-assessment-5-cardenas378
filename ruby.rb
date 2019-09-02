@@ -38,25 +38,31 @@
 
 # 4. Look at this horrible Ruby code. Fix it to be good Ruby code.
 
-class example
- def constructor(day)
-    @day=day
-  end
+# class example
+# def initialize(day)
+#     @day=day
+#   end
 
-  def SayHi
-    if day === "Friday"
-      puts "TGIF!"
+#   def SayHi
+#     if day === "Friday"
+#       puts "TGIF!"
     
-    elsif day === "Monday"
-      puts "Its monday again"
+#     elsif day === "Monday"
+#       puts "Its monday again"
   
-    else
-      puts "another day"
+#     else
+#       puts "another day"
 
-  end 
-end
+#   end 
+# end
 
 # 5a. Create a class called Animal that initializes with a color. Create a method in the class called legs that returns 4.
+class Animal
+  def initialize(color, legs)
+    @color = color 
+    @legs = 4
+  end 
+end 
 
 
 
