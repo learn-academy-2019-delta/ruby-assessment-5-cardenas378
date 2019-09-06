@@ -5,41 +5,45 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. In what ways are JavaScript and Ruby similar? In what ways are they different?
 
-  Your answer:
+  Your answer: Both JS and Ruby are object oriented languages. JS seems to be used on the front end and Ruby is more of a back end language, and i think Ruby may be slower.
 
-  Researched answer:
+  Researched answer: The syntax in these two languages is slightly different. Functions are different. JS can accept mulitple arguments without giving back an error 
+    message, with Ruby you have to pass the right number of pareameters or an error will show. JS uses "else if" Ruby uses "elsif". In JS (===) three equals are used  
+    to return the value explicity, while in Ruby we use (==) two equals, in JS (==) would compare values regardless of datatype. 
 
 
 
 2. What is a hash?
 
-  Your answer:
+  Your answer: A hash is a collection of data. 
 
-  Researched answer:
+  Researched answer: A hash is a colection of key value pairs that are similar to an array, except that indexing is done via arbitrary keys of any object type. Not an integer 
+    index.
 
 
 
 3. What is the testing framework used in Ruby? Describe the process of setting up the testing environment.
 
-  Your answer:
+  Your answer:Rspec is the testing framework for Ruby.
 
-  Researched answer:
+  Researched answer: Rspec is one of the most frequently used testing tool for Ruby. It was created for behavior driven developtment. 
 
 
 
 4. Name three possible relationships between objects?
 
-  Your answer:
+  Your answer: n/a
 
-  Researched answer:
+  Researched answer: Inheritance is a "IS-A" type of relationship. Coposition is a "part-of" type of relationship. Association is a "has-a" type of relashionship. Aggregation is   based on "has-a" type of relationship. 
 
 
 
 5. What is an instance variable? How is it different from other variables in Ruby?
 
-  Your answer:
+  Your answer: n/a
 
-  Researched answer:
+  Researched answer: An instance variable has a name beginning with @, and its scope is confined to whatever object self refers too. Two different objects, even if they belong 
+    to the same class, are allowed to have different values for their intance variables.
 
 
 
@@ -51,11 +55,11 @@ Answer the following questions. First, without external resources. Challenge you
 
 Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Ruby:
 
-1)
+1) in Ruby (**) is the way to say "to the power of"
 
-2)
+2) to find the square root of something you simply use MATH.sqrt()
 
-3)
+3)Name identifiers in english. 
 
 
 7. Stretch: What are blocks, procs, and lambdas?
